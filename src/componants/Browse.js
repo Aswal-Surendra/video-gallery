@@ -1,4 +1,5 @@
 import Header from "./Header";
+import Footer from "./Footer";
 import HeroPanelWizard from "./HeroPanelWizard.js";
 import useNowPlayingMovies from "../hooks/useNowPlayingMovies";
 import MainContainer from "./MainContainer.js";
@@ -23,7 +24,7 @@ const Browse = () => {
         <HeroPanelWizard />
         <MainContainer/>
         <SecondaryContainer/>
-
+         <Footer />
       </div>
     </div>
   );
